@@ -3,6 +3,10 @@ by Jallson Suryo
 
 ![Project Setup](images/photo00.png)
 
+Edge Impulse project link: https://studio.edgeimpulse.com/public/624749/live
+
+Demo Video link: https://youtu.be/xL7PMEsPSeU
+
 ### Problem Statement:
 
 ![Parking Zone](images/photo01.png)
