@@ -83,7 +83,7 @@ The inferencing time is around 40ms, which is an incredibly fast for object dete
 With the impressive accuracy of live inferencing using EI Runner, we can now create a Python-based Parking Meter program. This code performs object tracking and parking duration analysis using bounding boxes detected by our YOLOv5 based model. For every frame, it identifies the location and size of detected cars, then attempts to match them with previously tracked objects using Intersection over Union (IoU), distance between centers, and size similarity. If a match is found, it checks whether the object has moved; if not, it updates the tracked object's "stopped" duration. If the object has moved or reappeared after more than 3 seconds, it resets the timer. The system only starts displaying bounding boxes if a car has remained stationary for 5 seconds or more, ensuring it is actually parked.
 Each car is also assigned to one of four parking zones (A, B, C, or D) based on its location. Zone A and B allow parking but turn the bounding box red if the duration exceeds 30 or 100 seconds. Zone C is a no-parking zone and triggers a red box after just 5 seconds. Zone D is a paid parking area where the display shows a dollar amount instead of time, charging $5 every 10 seconds. This zone-based logic allows for flexible rules depending on where the car is parked, and visual feedback is given via color-coded bounding boxes and overlaid text.
 
-![Our code Screenshot](images/Photo15.png)
+![Our code Screenshot](images/photo15.png)
 
 For all codes, images and videos can be accessed from this repository.
 
