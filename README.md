@@ -1,3 +1,8 @@
+## YOLO-based On-Street Parking Meter with Raspberry Pi 5
+by Jallson Suryo
+
+![Project Setup](images/photo00.png)
+
 ### Problem Statement:
 
 ![Parking Zone](images/photo01.png)
