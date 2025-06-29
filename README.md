@@ -96,10 +96,10 @@ Each car is also assigned to one of four parking zones (A, B, C, or D) based on 
 
 For all codes, images and videos can be accessed from this repository.
 
-For USB camera connected to the Raspberry Pi, run the program (parkingmeter1.py) with the following command:
+For USB camera connected to the Raspberry Pi, run the program (parkingmeter_cam.py) with the following command:
 `python3 parkingmeter_cam.py <path to modelfile>/model.eim`
 
-To run the program (parkingmeter2) using a video file as input (e.g., video.mp4), we can add the path to the video file when executing the program:
+To run the program (parkingmeter_vid) using a video file as input (e.g., video.mp4), we can add the path to the video file when executing the program:
 `python3 parkingmeter_vid.py <path to modelfile>/model.eim <path to videofile>/video.mp4`
 
 Note:
